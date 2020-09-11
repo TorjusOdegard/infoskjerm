@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/infoskjerm/static/css/main.5f361e03.chunk.css",
-    "main.js": "/infoskjerm/static/js/main.c3be9d16.chunk.js",
-    "main.js.map": "/infoskjerm/static/js/main.c3be9d16.chunk.js.map",
+    "main.css": "/infoskjerm/static/css/main.a1856c78.chunk.css",
+    "main.js": "/infoskjerm/static/js/main.fe2427ef.chunk.js",
+    "main.js.map": "/infoskjerm/static/js/main.fe2427ef.chunk.js.map",
     "runtime-main.js": "/infoskjerm/static/js/runtime-main.d6c9a5ab.js",
     "runtime-main.js.map": "/infoskjerm/static/js/runtime-main.d6c9a5ab.js.map",
-    "static/js/2.729bf6b7.chunk.js": "/infoskjerm/static/js/2.729bf6b7.chunk.js",
-    "static/js/2.729bf6b7.chunk.js.map": "/infoskjerm/static/js/2.729bf6b7.chunk.js.map",
+    "static/js/2.4e42a88e.chunk.js": "/infoskjerm/static/js/2.4e42a88e.chunk.js",
+    "static/js/2.4e42a88e.chunk.js.map": "/infoskjerm/static/js/2.4e42a88e.chunk.js.map",
     "index.html": "/infoskjerm/index.html",
-    "precache-manifest.f939f98eb7cd536ac8c269746659f22f.js": "/infoskjerm/precache-manifest.f939f98eb7cd536ac8c269746659f22f.js",
+    "precache-manifest.0db9887cd94aa4154254b05331798c30.js": "/infoskjerm/precache-manifest.0db9887cd94aa4154254b05331798c30.js",
     "service-worker.js": "/infoskjerm/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/infoskjerm/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.729bf6b7.chunk.js.LICENSE.txt": "/infoskjerm/static/js/2.729bf6b7.chunk.js.LICENSE.txt"
+    "static/css/main.a1856c78.chunk.css.map": "/infoskjerm/static/css/main.a1856c78.chunk.css.map",
+    "static/js/2.4e42a88e.chunk.js.LICENSE.txt": "/infoskjerm/static/js/2.4e42a88e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d6c9a5ab.js",
-    "static/js/2.729bf6b7.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c3be9d16.chunk.js"
+    "static/js/2.4e42a88e.chunk.js",
+    "static/css/main.a1856c78.chunk.css",
+    "static/js/main.fe2427ef.chunk.js"
   ]
 }

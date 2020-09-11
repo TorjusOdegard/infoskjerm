@@ -1,9 +1,40 @@
 import React, { useEffect, useState } from "react";
+import { getDistance } from "geolib";
 import createEnturService from "@entur/sdk";
 
 const service = createEnturService({
   clientName: "torjus-infoskjerm",
 });
+
+const Station = (props) => {
+  const {
+    name,
+    bikesAvailable,
+    spacesAvailable,
+    latitude,
+    longitude,
+  } = props.station;
+
+  const distance = getDistance(
+    {
+      latitude: 63.417149,
+      longitude: 10.396673,
+    },
+    {
+      latitude,
+      longitude,
+    }
+  );
+  return (
+    <div>
+      <p>
+        {name} ({distance} meter):
+      </p>
+      <p>Ledige sykler [{bikesAvailable}]</p>
+      <p>Ledige plasser [{spacesAvailable}]</p>
+    </div>
+  );
+};
 
 const Bikes = () => {
   const [bikeStations, setBikesStations] = useState([]);
@@ -22,7 +53,7 @@ const Bikes = () => {
 
   return (
     <div className="Bikes">
-      <h3>Oversikt over bysykler</h3>
+      <h3>Bysykler</h3>
       {bikeStations.map((station) => (
         <Station station={station} />
       ))}
@@ -31,13 +62,3 @@ const Bikes = () => {
 };
 
 export default Bikes;
-
-const Station = (props) => {
-  const { name, bikesAvailable, spacesAvailable } = props.station;
-  return (
-    <div>
-      {name}: Ledige sykkler [{bikesAvailable}] og ledige plasser [
-      {spacesAvailable}]
-    </div>
-  );
-};

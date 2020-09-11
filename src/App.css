@@ -1,3 +1,10 @@
+* {
+  margin: 10px;
+  font-family: Menlo;
+  background-color: lightgray;
+  text-transform: uppercase;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Title {
+}
+
+.Info {
+  margin-top: 50px;
+}
+
+.DadJoke {
+  margin-top: 50px;
+}
+
+.Bikes {
+  margin-top: 50px;
+}
+
+.Scooters {
+  margin-top: 50px;
 }

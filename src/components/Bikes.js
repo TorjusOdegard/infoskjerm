@@ -12,16 +12,17 @@ const Bikes = () => {
     service
       .getBikeRentalStationsByPosition(
         {
-          latitude: 63.428311,
-          longitude: 10.392514,
+          latitude: 63.417149,
+          longitude: 10.396673,
         },
-        230
+        300
       )
       .then((data) => setBikesStations(data));
   }, []);
 
   return (
     <div className="Bikes">
+      <h3>Oversikt over bysykler</h3>
       {bikeStations.map((station) => (
         <Station station={station} />
       ))}
@@ -35,7 +36,8 @@ const Station = (props) => {
   const { name, bikesAvailable, spacesAvailable } = props.station;
   return (
     <div>
-      {name} - {bikesAvailable} : {spacesAvailable}
+      {name}: Ledige sykkler [{bikesAvailable}] og ledige plasser [
+      {spacesAvailable}]
     </div>
   );
 };

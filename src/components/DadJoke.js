@@ -11,6 +11,7 @@ const DadJoke = () => {
 
   return (
     <div className="DadJoke">
+      <h3>Dagens DadJoke fra Reddit</h3>
       <p>{joke.title}</p>
       <p>{joke.selftext}</p>
     </div>

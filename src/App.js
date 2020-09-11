@@ -1,17 +1,22 @@
 import React from "react";
 import "./App.css";
-import Title from "./Title.js";
-import DadJoke from "./DadJoke";
-import Bikes from "./Bikes";
+import Title from "./components/Title.js";
+import DadJoke from "./components/DadJoke";
+import Bikes from "./components/Bikes";
+import Scooters from "./components/Scooters";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Title />
-      <DadJoke />
+      <hr />
       <Bikes />
+      <hr />
+      <Scooters />
+      <hr />
+      <DadJoke />
     </div>
   );
-}
+};
 
 export default App;
